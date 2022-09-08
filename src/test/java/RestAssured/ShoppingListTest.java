@@ -1,10 +1,9 @@
 package RestAssured;
-
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ShoppingList extends Base{
+public class ShoppingListTest extends Base{
 
     @Test
     void testPostShoppingList() {
