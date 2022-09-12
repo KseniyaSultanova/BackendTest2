@@ -1,4 +1,4 @@
-package RestAssured;
+package RestAssured.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,12 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-
-// POJO
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ApiSearchResult {
+public class ApiSearchResult2 {
     private List<ApiSearchResultItem> results;
     private Integer offset;
     private Integer number;
